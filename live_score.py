@@ -9,12 +9,12 @@ from pycricbuzz import Cricbuzz
 
 def fun():
 	#we enter our Twilio accoundSid and authToken
-	accountSid 		= ""
-	authToken  		= ""
+	accountSid 		= "your accoundSid"
+	authToken  		= "your authToken"
 	# connecting to TWILIO API
 	twilioClient	= Client(accountSid, authToken)
-	myTwilioNumber 	= ""
-	destCellPhone 	= ""
+	myTwilioNumber 	= "your twilio number"
+	destCellPhone 	= "your mobile number"
 
 	#url = "http://synd.cricbuzz.com/j2me/1.0/livematches.xml"
 	#to extract the matches 
