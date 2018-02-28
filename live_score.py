@@ -8,7 +8,7 @@ from pycricbuzz import Cricbuzz
 
 
 def fun():
-	#we enter our Twilio accoundSid and authToken
+	#we enter our Twilio accoundSid and authToken(find it on twilio account settings)
 	accountSid 		= "your accoundSid"
 	authToken  		= "your authToken"
 	# connecting to TWILIO API
