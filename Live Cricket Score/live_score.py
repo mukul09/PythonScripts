@@ -34,7 +34,7 @@ def fun():
 				ms =main['batting']['score'][0]
 				bat1=main['batting']['batsman'][0]
 				bat2=main['batting']['batsman'][1]
-				message=i['srs']+ "      "+"Format: "+i['type'] +  "\n" + "Score: " +main['batting']['team']+" "+ms['runs'] +'/'+ms['wickets'] +" ("+ms['overs']+")"+"\n" +bat1['name']+":"+bat1['runs']+"("+bat1['balls']+")   "+ bat2['name']+":"+bat1['runs']+"("+bat2['balls']+")"
+				message=i['srs']+ "      "+"Format: "+i['type'] +  "\n" + "Score: " +main['batting']['team']+" "+ms['runs'] +'/'+ms['wickets'] +" ("+ms['overs']+")"+"\n" +bat1['name']+":"+bat1['runs']+"("+bat1['balls']+")   "+ bat2['name']+":"+bat2['runs']+"("+bat2['balls']+")"
 
 	#Generates the message
 	notify2.init("Live Score")
